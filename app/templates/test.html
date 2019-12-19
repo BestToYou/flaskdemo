@@ -1,0 +1,53 @@
+<body>
+{#接收数据#}
+{#1.接收网页地址#}
+{{ url }}<br><br>
+
+{#2.接收列表#}
+{{ list }}<br><br>
+
+{#3.接收字典#}
+{{ dict }}<br><br>
+
+{#4.接收整数#}
+{{ int }}<br><br>
+
+{#5.接收列表的下标为2的数#}
+{{ list.2 }}<br><br>
+
+{#6.接收列表的下标为3的数#}
+{{ list[3] }}<br><br>
+
+{#7.接收字典键值为name的值#}
+{{ dict.name }}<br><br>
+
+{#8.接收字典键值为age的值#}
+{{ dict['age'] }}<br><br>
+
+{#9.控制代码块-for循环遍历 快捷键：for+tab键#}
+{% for num in list %}
+    {{ num }}
+{% endfor %}
+<br>
+
+{#10.控制代码块-if条件判断 快捷键：if+tab键#}
+{% for num in list %}
+    {% if num<4 %}     {# 加条件判断:筛选出列表中小于4的数字 #}
+        {{ num }}
+    {% endif %}
+{% endfor %}
+<br><br>
+
+{#过滤器#}
+{#将字符串改大写#}
+{{ url | upper }}<br><br>
+
+{#将字符串反转#}
+{{ url | reverse }}<br><br>
+
+{#字符串的链式调用-将字符串大写之后反转#}
+{{ url | upper | reverse}}<br><br>
+
+
+</body>
+

@@ -1,0 +1,62 @@
+卷 办公 的文件夹 PATH 列表
+卷序列号为 84B5-BDE2
+D:.
+│  1.txt
+│  dzc.py
+│  
+├─.idea
+│      misc.xml
+│      modules.xml
+│      workspace.xml
+│      新建文件夹.iml
+│      
+├─app
+│  │  secure.py
+│  │  setting.py
+│  │  __init__.py
+│  │  
+│  ├─models
+│  │  │  base.py
+│  │  │  ontom.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          base.cpython-36.pyc
+│  │          ontom.cpython-36.pyc
+│  │          __init__.cpython-36.pyc
+│  │          
+│  ├─static
+│  ├─templates
+│  │      test.html
+│  │      
+│  ├─web
+│  │  │  datatest.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          datatest.cpython-36.pyc
+│  │          __init__.cpython-36.pyc
+│  │          
+│  └─__pycache__
+│          secure.cpython-36.pyc
+│          setting.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│          
+├─migrations
+│  │  alembic.ini
+│  │  env.py
+│  │  README
+│  │  script.py.mako
+│  │  
+│  ├─versions
+│  │  │  42aea204951d_test1.py
+│  │  │  
+│  │  └─__pycache__
+│  │          42aea204951d_test1.cpython-36.pyc
+│  │          
+│  └─__pycache__
+│          env.cpython-36.pyc
+│          
+└─__pycache__
+        dzc.cpython-36.pyc
+        
