@@ -7,6 +7,7 @@ class Parent(db.Model):
 
 	name = db.Column(db.String(30), unique=True)
 	test = db.Column(db.String(30), unique=True)
+	test1 = db.Column(db.String(30), unique=True)
 
 	children = db.relationship("Child", backref="parent")
 
@@ -29,3 +30,13 @@ class Child(db.Model):
 
 	def __repr__(self):
 		return "name is %r"
+
+
+
+class ad(db.Model):
+	id = db.Column(db.Integer, primary_key=True)
+	name = db.Column(db.String(30), unique=True)
+	test = db.Column(db.String(30), unique=True)
+	test1 = db.Column(db.String(30), unique=True)
+	test2= db.Column(db.String(30), unique=True)
+
